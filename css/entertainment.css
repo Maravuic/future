@@ -1,0 +1,82 @@
+body{
+    padding:0;
+    background-color:gold ;
+    background-image: url(../images/entertainment/swapped.MP4);
+    background-position: center;
+    background-size: cover;
+}
+.gifs>*{
+    height: 250px;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+.text{
+  color: rgb(236, 30, 30);
+  text-shadow: 2px 2px 7px black;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  top: 35%;
+  z-index: 100;
+  font-family: 'Bangers', 'Fredoka One', cursive;
+}
+
+.gifs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+@keyframes scale{
+    100%{
+        scale:2;
+    }
+ }
+
+#street, #handsome, #depilation, #stretching{
+    animation-name:scale;
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+
+  #happy, #look, #apple, #monkey{
+    animation-name:scale;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }  
+
+  #index{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#inside{
+    font-size: 25px;
+    color: rgb(236, 30, 30);
+    text-shadow: 2px 2px 7px black;
+    background:none;
+    font-family: 'Bangers', 'Fredoka One', cursive;
+    border: 0;
+	  cursor:pointer;
+    outline-style: none;
+    height: 50px;
+    width: 100px;
+    text-align: justify;
+
+}
+
+
+
+
+
+
+

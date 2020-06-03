@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: cyan;
+    text-align: center;
+    line-height: 80px;
+    font-family:'Share Tech Mono', 'Press Start 2P', 'VT323', monospace;
+}
+
+#scan{
+    top: 10%;
+    position: absolute;
+    left: 30%;
+    height: 600px;
+    z-index: -1;
+}
+
+#index{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#inside{
+    font-size: 25px;
+    color: cyan;
+    background:none;
+    font-family:'Share Tech Mono', 'Press Start 2P', 'VT323', monospace;
+    border: 0;
+	cursor:pointer;
+    outline-style: none;
+    height: 100px;
+    width: 100px;
+    text-align: justify;
+}
